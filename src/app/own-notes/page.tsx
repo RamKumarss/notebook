@@ -2,10 +2,8 @@
 import { ListType } from '@/Interfaces';
 import Button from '@/components/Button';
 import CustomItems from '@/components/CustomItems'
-import ListForPdf from '@/components/ListForPdf';
 import ListTable from '@/components/ListTable';
 import { downloadSlip } from '@/utility/downloadSlip';
-import { printImage } from '@/utility/printSlip';
 import React, { useState } from 'react'
  
 const Page = () => {
